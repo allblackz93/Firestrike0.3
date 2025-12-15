@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="137a-370a-4f11-db74" name="Wookiee" gameSystemId="sys-9817-51a3-5324-fb01" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry name="Kashyyyk" id="bc38-2f58-4020-6919" hidden="false">
+      <constraints>
+        <constraint type="min" value="1" field="forces" scope="parent" shared="true" id="48b7-612a-1087-9e57-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="forces" scope="parent" shared="true" id="48b7-612a-1087-9e57-max" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="0ba0-3e8a-6a14-2b3f" targetId="68fe-c522-5fd6-bb8c"/>
+        <categoryLink name="Leader" hidden="false" id="9d89-bbd5-b9dc-0923" targetId="a1b8-6e06-998f-2141"/>
+        <categoryLink name="Other" hidden="false" id="b2a0-21ca-35dc-6795" targetId="db91-0fe3-1999-9539"/>
+        <categoryLink name="Political Character" hidden="false" id="63b1-69aa-f934-2bb7" targetId="77a0-8e47-6eaa-2afd"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Shyriiwook" id="7f8f-d901-ccd2-57f0" hidden="false">
+          <description>Only WOOKIEE units may receive Orders from friendly WOOKIEE LEADER units</description>
+        </rule>
+        <rule name="Kashyyyk Natives" id="ed51-4219-bd67-f5b1" hidden="false">
+          <description>WOOKIEE units ignore the penalties for movement and charge attempts through rough ground</description>
+        </rule>
+        <rule name="Not Wise To Upset A Wookiee" id="4275-807d-9105-450a" hidden="false">
+          <description>If a WOOKIEE unit suffered any unsaved wounds in the previous turn, add 1&quot; to its move characteristic until the end of the turn. In addition, if the unit makes a charge move in the same turn, roll 2 dice and pick the highest.</description>
+        </rule>
+      </rules>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Wookiee Hunters" hidden="false" id="d1de-d3ae-2f22-e2ea">
+      <profiles>
+        <profile name="Wookiee Hunter" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="7868-43c7-8e87-2c47">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Fists" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="d372-212a-6bb4-0050">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Hunters" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="f3b8-7f40-d613-6814">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Republic, Wookiee, Infantry, Core, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hunter" id="f0bc-92d1-ca30-d935" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Bowcaster" hidden="false" id="824b-e03b-7c3c-34dc">
+              <profiles>
+                <profile name="Bowcaster (Charged)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="527a-40e6-b899-6993">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">3</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Bowcaster (Scattershot)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="8c5c-54ed-66f7-1b9f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">12&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Bowcaster" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="474d-27d3-3cd5-8aee">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When firing this weapon, the model must use either the Charged or the Scattershot profile</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="39"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Carbine" hidden="false" id="396b-f96a-d241-99c2">
+              <profiles>
+                <profile name="Carbine" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="8893-c69f-e646-392b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="30"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Rifle" hidden="false" id="a7df-b818-e304-56e2">
+              <profiles>
+                <profile name="Rifle" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="854d-ff61-2a84-ba5e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="32"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="c5f5-5cbb-9a61-3d30"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f8c1-ef82-3539-081b"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="62f1-a046-be32-575d" primary="true" name="Core"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wookiee Berserkers" hidden="false" id="8721-d89b-d1e9-6eb8">
+      <profiles>
+        <profile name="Wookiee Berserker" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="2d0f-cfa4-e766-e7d3">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Berserkers" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="3d5c-afed-ba73-28d5">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Republic, Wookiee, Infantry, Core, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Berserker" id="b2c1-0bd7-4ae4-2d1a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Twin Berserker Blades" hidden="false" id="3bd6-765a-62ec-90c1">
+              <profiles>
+                <profile name="Twin Berserker Blades" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="0442-5fb6-01ae-cc73">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Models armed with Twin Berserker Blades re-roll to hit rolls of 1 with the weapon</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Twin Berserker Blades" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="1fdd-dad9-729b-255f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="58"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Blade and Pistol" hidden="false" id="6f8b-85aa-fb01-b25b">
+              <profiles>
+                <profile name="Berserker Blade" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="427d-5e87-3ada-380b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Wookiee Pistol" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="10e1-5bc5-c187-ad41">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">10&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="39"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Wookiee Clan Shield" hidden="false" id="17a2-0836-b3bc-f872">
+              <profiles>
+                <profile name="Wookiee Clan Shield" typeId="2021-f4fa-b938-3423" typeName="Parry Save" hidden="false" id="00e4-7201-1a37-ddc0">
+                  <characteristics>
+                    <characteristic name="Save" typeId="5731-4919-9376-3e44">5+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Wookiee Clan Shield" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="68f6-8da0-6940-f705">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Models equipped with a Battleshield gain a Hardy Token at the start of each turn</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Wookiee Clan Shield" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="38a1-fee0-9f16-71fd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Wookiee Pistol" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4112-6822-5278-e5e9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">10&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="49"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <categoryLinks>
+            <categoryLink targetId="68fe-c522-5fd6-bb8c" id="fe23-12e1-995f-a8ac" primary="true" name="Core"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3a3c-df8f-cae1-65ed"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b538-48b1-7e80-201a"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="3f6b-a949-1b81-c4b6" primary="true" name="Core"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Chewbacca (Clone Wars)" hidden="false" id="dd14-ad11-2e46-8af4">
+      <profiles>
+        <profile name="Chewbacca" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="3bba-f106-e306-1065">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">3</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chewy&apos;s Bowcaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="9065-471b-45b4-46c0">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171"/>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70"/>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8"/>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70"/>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15"/>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Fists" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="1293-0a71-852e-8fb3">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171"/>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70"/>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8"/>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70"/>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15"/>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Chewbacca (Clone Wars)" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="8443-4014-7a42-8f8a">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Republic, Wookiee, Leader, Officer, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="1450-bcf4-a8c5-259b" primary="true" name="Leader"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tarfful" hidden="false" id="c748-bb9f-4ae8-319c">
+      <profiles>
+        <profile name="Tarfful" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="8976-8ed4-1c36-daef">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">10</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">4</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Long Rifle" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="11d7-7caf-f99c-fec9">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171"/>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70"/>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8"/>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70"/>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15"/>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Blade" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a6b2-6aa4-eb6a-de36">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171"/>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70"/>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8"/>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70"/>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15"/>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Tarfful" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="2354-45f2-9a25-d735">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Republic, Wookiee, Leader, Officer, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="4cbf-d53e-8e50-44e4" primary="true" name="Leader"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wookiee Chieftain" hidden="false" id="6fc7-6b0c-ccff-8739">
+      <profiles>
+        <profile name="Wookiee Chieftain" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="dd0b-9b04-dee5-07df">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">3</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bowcaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="20d9-92a5-ad9c-7670">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171"/>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70"/>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8"/>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70"/>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15"/>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Blade" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="e62c-9e25-9bad-403b">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171"/>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70"/>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8"/>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70"/>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15"/>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Chieftain" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="a34f-2633-32e4-be67">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Republic, Wookiee, Leader, Officer, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="3038-3427-416b-2a35" primary="true" name="Leader"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wookiee Heavy Gun Team" hidden="false" id="c844-b2cb-3eed-9170">
+      <profiles>
+        <profile name="Wookiee Heavy Gun Team" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="ff70-6076-40d4-518e">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">4&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wookiee Heavy Gun Team" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="632d-8410-ec0a-e614">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Republic, Wookiee, Artillery, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="3ebd-fc52-9eba-fd91" primary="true" name="Other"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Fluttercraft" hidden="false" id="57de-b827-7ca1-868e">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="190b-21be-a2b9-7bdb" primary="true" name="Other"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Catamaran" hidden="false" id="70f6-6953-dd40-7e8f">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="572f-a9b8-2746-a42b" primary="true" name="Other"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wookiee Beast Riders" hidden="false" id="f922-d73c-0b6c-c0e9">
+      <profiles>
+        <profile name="Wookiee Beast Rider" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="b8c2-0e86-fd84-4d4a">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">10&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="c384-9302-6a6f-9bb8" primary="true" name="Other"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <publications>
+    <publication name="GitHub" id="3c3c-bea8-acc0-2bcd" hidden="false" publisherUrl="https://github.com/allblackz93/Firestrike0.2/blob/main/Wookiees.cat"/>
+  </publications>
+  <entryLinks>
+    <entryLink import="true" name="Wookiee Berserkers" hidden="false" id="eb38-a3f4-0dba-cc20" targetId="8721-d89b-d1e9-6eb8" type="selectionEntry"/>
+    <entryLink import="true" name="Wookiee Hunters" hidden="false" id="9d46-ab60-d53a-2d1c" targetId="d1de-d3ae-2f22-e2ea" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

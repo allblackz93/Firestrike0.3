@@ -1,0 +1,2728 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2f2c-485e-c1c4-b966" name="Confederacy of Independent Systems" gameSystemId="sys-9817-51a3-5324-fb01" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Count Dooku" hidden="false" id="a8bf-c9ea-3d87-3412">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="bdb9-95d2-1df7-56bf" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Count Dooku" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="b520-34e9-6bda-67df">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">5&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">3+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">3 (6)</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Saber" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="fee5-b1fb-5922-86d1">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Makashi" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="4e51-a59d-1863-183f">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When making melee attacks against a LIGHTSABER model, you may re-roll all hit rolls</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skillful Orator" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="cba6-922f-202d-a871">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Friendly units may use this model’s morale for morale checks within 12” of it</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="More Powerful Than Any Jedi" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="2ae4-0a43-b02a-8461">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When an enemy model attempts to resist a Force Power manifested by this model, that Power is treated as 1 number higher than the rolled result</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Count Dooku" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="4d66-7859-ea16-59e7">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Sith, Leader, Officer, Infantry, Force User, Lightsaber, Dark Side, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Force Powers" id="dbd2-b61b-1c08-8036" hidden="false">
+          <infoLinks>
+            <infoLink name="Choke" id="921a-87de-7603-74bb" hidden="false" type="profile" targetId="5a8a-f469-d4a9-684e"/>
+            <infoLink name="Jump" id="0921-a5ee-b1b6-d475" hidden="false" type="profile" targetId="6428-ae1e-6c8f-7968"/>
+            <infoLink name="Lightning" id="da63-c55c-0b27-ceed" hidden="false" type="profile" targetId="bc78-8fe3-cc40-24ed"/>
+            <infoLink name="Rage" id="7948-5a28-8f29-7a97" hidden="false" type="profile" targetId="a900-660c-e157-5ce5"/>
+            <infoLink name="Speed" id="fb52-6ab4-a152-dc97" hidden="false" type="profile" targetId="66a5-b152-6ec3-955b"/>
+            <infoLink name="Throw" id="60b5-6e26-deaf-381e" hidden="false" type="profile" targetId="c51a-664a-8342-67f6"/>
+            <infoLink name="Barrier" id="9aa6-1ace-8921-3449" hidden="false" type="profile" targetId="54c6-be67-3bca-ac7d"/>
+          </infoLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Force User" id="c4d4-6f6b-8ba2-e09b" hidden="false" type="rule" targetId="f514-8793-f36f-04b7"/>
+        <infoLink name="Officer" id="41ff-ec5a-982c-356d" hidden="false" type="rule" targetId="c2de-84df-3a91-dbf4"/>
+        <infoLink name="Lightsaber" id="f256-3e59-b70e-e01b" hidden="false" type="rule" targetId="e930-6522-7576-afd1"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="268"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="11ff-4c5e-8eb6-0a36" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="General Grievous" hidden="false" id="9a76-b29b-82a7-9dff">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="4dd2-2673-5954-cacc" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="General Grievous" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="13ac-775b-5cc9-a8b0">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">3+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">6</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">4</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="c33e-9c7b-0150-cff6">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Sabers (Power)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="6303-db7d-9182-d2ae">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">3</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sabers (Whirlwind)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4e31-7e2f-f494-8614">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">8</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Time To Abandon Ship" typeId="02d5-6049-315e-ffaa" typeName="Order" hidden="false" id="b906-e6f3-7a4e-e682">
+          <characteristics>
+            <characteristic name="TP" typeId="1dd2-ae82-7f1e-76b7">1</characteristic>
+            <characteristic name="Description" typeId="7f29-52a1-7e58-0a0b">When this model declares a retreat move, select an other friendly unit within 6” that is within engagement range of an enemy unit this model is within engagement range of. That chosen friendly unit may immediately fight as though it were the melee phase</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fighting Style" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="e0b1-d948-f02e-ac2f">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">At the start of the Melee Phase, this model must elect a fighting style for its Sabers attack, either Power or Whirlwind.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Your Lightsaber Will Make A Fine Addition To My Collection" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="d223-cbc0-dc0f-fafc">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model re-rolls hit rolls of 1 against enemy JEDI units.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Grapples" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="f0ab-6afa-89b1-3c77">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model may change 2 height levels without using extra movement. In addition, this unit ignores the moevement penalties for moving across low obstacles</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Cowardice" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="4d0d-937e-d731-576c">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit may run as part of a retreatmovement. In addition, it may shoot inthe following Ranged Phase even if it retreats. (Restrictions for running and shooting, still applies.)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="General Grievous" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="700e-cff9-0f70-cdd1">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Cyborg, Leader, Officer, Infantry, Lightsaber, Biological, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Officer" id="c7cc-5f4b-f454-1fa8" hidden="false" type="rule" targetId="c2de-84df-3a91-dbf4"/>
+        <infoLink name="Lightsaber" id="7e66-a87f-852c-0a63" hidden="false" type="rule" targetId="e930-6522-7576-afd1"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="405"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0cfb-ea65-55a9-9b50" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Super Tactical Droid" hidden="false" id="d839-7c41-fac1-aa3e">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="7aec-e157-9ef9-1300" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Super Tactical Droid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="c6a6-ab0f-bb41-bbb1">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">3</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pistol" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="433e-2bda-670f-61ca">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">10&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Punches" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="f148-07d3-1182-3c29">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">3</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Strategical Genius" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="e89b-d5fd-dbab-f40c">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Add 1 to the “Roger, Roger” roll for any Friendly unit receiving an order from this model. If a friendly unit does not use “Roger, Roger” instead gain a TP on a roll of a 7+, if an order is received from this model. This model may issue up to two orders per turn</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Super Tactical Droid" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="1dc8-8c57-a3c1-48f9">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">In the Shooting Phase, this unit may declare that it is activating its Droid Command Module. Until the end of the phase, B1 squads within 18” gain the benefits of the Concerted Fire ability on its Datacard</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Super Tactical Droid" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="0fda-73f8-ab31-f6e8">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Leader, Officer, Infantry, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Officer" id="b362-875e-48cc-afd6" hidden="false" type="rule" targetId="c2de-84df-3a91-dbf4"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="109"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a38b-df1c-370a-c4cb" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tactical Droid" hidden="false" id="cedc-9473-2306-cd8b">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="2e7a-f49c-e7a3-52d8" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Tactical Droid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="83f2-c396-ca13-fd0b">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">7</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="32fc-c149-a9cd-64c4">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Punches" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a5a1-820f-c23e-1252">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Strategical Design" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="990c-ae0d-c431-0fe2">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Add 1 to the “Roger, Roger” roll for any friendly unit receiving an order from this model</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Droid Command Module" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="31f2-f547-4b56-8565">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">In the Shooting Phase, this unit may declare that it is activating its Droid Command Module. Until the end of the phase, B1 squads within 12” gain the benefits of the Concerted Fire ability on its Datacard</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Droid" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="2526-62e1-f9b6-b24e">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Leader, Officer, Infantry, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Officer" id="0a2c-1e79-b625-c1b5" hidden="false" type="rule" targetId="c2de-84df-3a91-dbf4"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="73"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="B1 OOM" hidden="false" id="c672-d51e-f287-4b42">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="4235-6760-375a-69b8" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="B1 OOM" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="2d2a-ae9f-6c29-4128">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">7+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">6</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">1</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pistol" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="b81a-028e-8cb0-2491">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">10&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Punches" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="c576-b7e4-71d4-8cfa">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="I&apos;m in charge here, Sergeant" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="4e77-ffb8-6972-68f9">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If attached to a B1 unit, this model counts as a Fire Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Targeting Sequence" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="2e6d-34f0-5bd7-665b">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If attached to a B1 unit, that unit gains 2 Accuracy Tokens</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="B1 OOM" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="9add-015e-9da3-1d94">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Leader, Officer, B1, Infantry, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="38"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Officer" id="725f-0049-d4bb-832e" hidden="false" type="rule" targetId="c2de-84df-3a91-dbf4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="B1 Battledroid Squad" hidden="false" id="8ea8-3711-dc2c-eddb">
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="cef7-d874-5d53-1337" primary="true" name="Core"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fire Team Leader" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="ffd2-9b66-dffe-c8ee">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">While this unit contains a Fire Leader, it may make use of the “Roger, Roger” ability</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Concerted Fire" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="b362-e2c9-e6c3-a17b">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When targeting an enemy unit which has been targeted by an other B1 unit with 5 or models, this unit gains 2 Accuracy tokens. All attacks must target the same unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="B1 Battledroid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="6e2c-3c70-d0ec-3a3e">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">7+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">5</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="B1 Battledroid Squad" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="e0ff-3df4-e1a9-a794">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, B1, Infantry, Mechanical, Core</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="B1 Battledroid" id="d311-8ccf-7e9d-dad8" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="B1" hidden="false" id="7295-9a50-a064-01f5">
+              <profiles>
+                <profile name="Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="ef29-e2c5-dcfb-1746">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Gun Butt" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="873e-d3de-a227-8c68">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="8"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="E-5C" hidden="false" id="d936-caea-64a9-fbff">
+              <profiles>
+                <profile name="E-5C" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="76a9-cd53-af75-c5de">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Gun Butt" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a68a-0e4d-10e9-b4b4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2c4-52b7-3a6a-d2c1"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="b2c4-52b7-3a6a-d2c1">
+                  <conditions>
+                    <condition type="atLeast" value="20" field="selections" scope="fcbb-4502-88ce-46b9" childId="d311-8ccf-7e9d-dad8" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="b2c4-52b7-3a6a-d2c1">
+                  <conditions>
+                    <condition type="atLeast" value="30" field="selections" scope="fcbb-4502-88ce-46b9" childId="d311-8ccf-7e9d-dad8" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="b2c4-52b7-3a6a-d2c1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="fcbb-4502-88ce-46b9" childId="59f3-f24f-56e9-0ef3" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="b2c4-52b7-3a6a-d2c1">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="fcbb-4502-88ce-46b9" childId="59f3-f24f-56e9-0ef3" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="b2c4-52b7-3a6a-d2c1">
+                  <conditions>
+                    <condition type="atLeast" value="3" field="selections" scope="fcbb-4502-88ce-46b9" childId="59f3-f24f-56e9-0ef3" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="13"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Rocket Launcher" hidden="false" id="59f3-f24f-56e9-0ef3">
+              <profiles>
+                <profile name="Rocket Launcher" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a261-44f9-1ad1-bddb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">30&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D8</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Rocket Launcher" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="8169-7d9d-8ea6-32f0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If the target of a ranged attack made by a rocket launcher is a VEHICLE unit, the damage characteristic becomes D8+3</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Gun Butt" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="655e-8f3f-0f09-5d3d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19c7-f989-5bec-1f84"/>
+              </constraints>
+              <modifiers>
+                <modifier type="decrement" value="1" field="19c7-f989-5bec-1f84">
+                  <conditions>
+                    <condition type="equalTo" value="1" field="selections" scope="8ea8-3711-dc2c-eddb" childId="d936-caea-64a9-fbff" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="19c7-f989-5bec-1f84">
+                  <conditions>
+                    <condition type="atLeast" value="20" field="selections" scope="8ea8-3711-dc2c-eddb" childId="d311-8ccf-7e9d-dad8" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="19c7-f989-5bec-1f84">
+                  <conditions>
+                    <condition type="atLeast" value="30" field="selections" scope="parent" childId="d311-8ccf-7e9d-dad8" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="19c7-f989-5bec-1f84">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="fcbb-4502-88ce-46b9" childId="d936-caea-64a9-fbff" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="19c7-f989-5bec-1f84">
+                  <conditions>
+                    <condition type="atLeast" value="3" field="selections" scope="fcbb-4502-88ce-46b9" childId="d936-caea-64a9-fbff" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="28"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="dd39-cbde-f1d3-51fb"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="10ad-260f-1302-f9f3"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="B2 Super Battledroid Squad" hidden="false" id="c7d9-d5bd-0267-910c">
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="89a0-0313-7075-fcc9" primary="true" name="Core"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="B2 Super Battledroids" id="f893-31d7-af91-7d28" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="B2" hidden="false" id="ba8d-3f70-bb9d-a812">
+              <profiles>
+                <profile name="Wrist Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="ddbb-ddcb-e8be-f8b4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">15&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Punches" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="ec43-f39d-3e91-40e2">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="37"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Wrist Rocket" hidden="false" id="c65e-3af1-d447-b4e9">
+              <profiles>
+                <profile name="Wrist Rocket" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="89c9-0f68-6311-68dd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D4+1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Punches" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="85bf-e202-92aa-d98f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="46"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a94a-23c9-dd09-d9a6"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="a94a-23c9-dd09-d9a6">
+                  <conditions>
+                    <condition type="atLeast" value="6" field="selections" scope="c7d9-d5bd-0267-910c" childId="f893-31d7-af91-7d28" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="a94a-23c9-dd09-d9a6">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="c7d9-d5bd-0267-910c" childId="1b57-1842-85d1-94d6" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="a94a-23c9-dd09-d9a6">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="c7d9-d5bd-0267-910c" childId="1b57-1842-85d1-94d6" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Wrist Flamer" hidden="false" id="1b57-1842-85d1-94d6">
+              <profiles>
+                <profile name="Wrist Flamer" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="b90b-dd94-3d90-5e64">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">8&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">*</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Punches" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="8c6c-dc8f-4ae2-d8d9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Wrist Flamer" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="2db6-3212-1f20-738a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">The attacks characteristic for this weapon is equal to the number of models from the target unit, which are in range when the attack is made. (To a maximum of 4 per flamer)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="45"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93dc-cb81-d3cf-fead"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="93dc-cb81-d3cf-fead">
+                  <conditions>
+                    <condition type="atLeast" value="6" field="selections" scope="c7d9-d5bd-0267-910c" childId="f893-31d7-af91-7d28" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="93dc-cb81-d3cf-fead">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="c7d9-d5bd-0267-910c" childId="c65e-3af1-d447-b4e9" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="93dc-cb81-d3cf-fead">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="c7d9-d5bd-0267-910c" childId="c65e-3af1-d447-b4e9" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="B2 Super Battledroid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="c71a-0fe0-596b-9dfa">
+              <characteristics>
+                <characteristic name="M" typeId="7775-f0be-5f6a-b864">5&quot;</characteristic>
+                <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+                <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">7</characteristic>
+                <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+                <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+                <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Superior Design" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="4806-6d68-e08d-be8c">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit always counts as having a Fire Leader for the purposes of the “Roger, Roger” ability</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Destructive Fussilade" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="2e3e-694f-eed1-475d">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If this unit has 3 or models equipped with wrist blasters, it gains 2 Accuracy tokens. All attacks must target the same unit</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="7283-8575-6007-bddb"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="09a8-0822-d10f-e627"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="B2 Super Battledroid Squad" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="e931-3dfe-2335-5655">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, B2, Infantry, Mechanical, Core</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="B1 STAP Squadron" hidden="false" id="50c3-1ae8-4c75-4983">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="94a6-486c-958f-5b67" primary="true" name="Other"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="B1 STAP Rider" hidden="false" id="bd61-597d-f1d6-53e3">
+          <costs>
+            <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="47"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0a4b-a791-e4d2-8a0c"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="c186-e459-5433-e286"/>
+          </constraints>
+          <profiles>
+            <profile name="B1 STAP Rider" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="9938-bf37-686a-495e">
+              <characteristics>
+                <characteristic name="M" typeId="7775-f0be-5f6a-b864">12&quot;</characteristic>
+                <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+                <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">5</characteristic>
+                <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+                <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+                <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Twin Blasters" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a4b6-da84-55de-c2ba">
+              <characteristics>
+                <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">3</characteristic>
+                <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+              </characteristics>
+            </profile>
+            <profile name="Kicks" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="e8a5-8354-d2a6-dfca">
+              <characteristics>
+                <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+                <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+              </characteristics>
+            </profile>
+            <profile name="Full Throttle" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="4f2b-eec2-dab2-89b6">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When this unit makes a run move, do not roll a dice and instead add 6” to its move</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Concerted Fire" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="6740-6d2e-4802-1663">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When targeting an enemy unit which has been targeted by an other B1 unit with 5 or models, this unit gains 2 Accuracy tokens. All attacks must target the same unit</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Fire Team Leader" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="1cc3-2454-9bed-c30a">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">While this unit contains a Fire Leader, it may make use of the “Roger, Roger” ability</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Repulsor" id="ac35-9da4-8195-ee1f" hidden="false" type="rule" targetId="de77-f808-1f29-9687"/>
+      </infoLinks>
+      <profiles>
+        <profile name="B1 STAP Squadron" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="205d-6f50-3da2-f94e">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, B1, Speeder, Vehicle, Repulsor, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Droidekas" hidden="false" id="1501-44d3-63a0-aa82">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="640b-185e-9efc-63fa" primary="true" name="Other"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Droideka" hidden="false" id="f3f8-850d-2b12-e35e">
+          <categoryLinks>
+            <categoryLink targetId="db91-0fe3-1999-9539" id="b5e7-0c3a-3277-12c1" primary="true" name="Other"/>
+          </categoryLinks>
+          <profiles>
+            <profile name="Droideka" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="7d8c-429f-6246-f45b">
+              <characteristics>
+                <characteristic name="M" typeId="7775-f0be-5f6a-b864">4&quot;</characteristic>
+                <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+                <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">7</characteristic>
+                <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+                <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+                <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Twin Blasters" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="45a8-6dfe-6d7f-e840">
+              <characteristics>
+                <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+                <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+              </characteristics>
+            </profile>
+            <profile name="Headbutt" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="e045-8a31-e5a7-d03f">
+              <characteristics>
+                <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">8+</characteristic>
+                <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+              </characteristics>
+            </profile>
+            <profile name="Deflector Shield" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="f058-e8ef-6585-2445">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit has a 3+ Deflection Save</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Suppressive Fire" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="dccd-c1fe-06f6-a46f">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit gains 1 Accuracy Token for each Droideka model</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Awkward Limbs" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="9b66-1cf8-5c7f-2abe">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit may not climb or traverse low obstacles, nor may it hold or carry objects</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Rolling Destroyer" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="f618-755c-62f5-97f0">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit can choose to change into ball mode in the movement phase, if it does its movement characteristic becomes 10”until your next movement phase, but can not benefit from its own Deflector Shield. This unit can not run.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="52"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="07fd-6499-ba76-f6af"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="0c19-7569-0fce-7269"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Droidekas" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="e843-8939-273c-6271">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Infantry, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Crab Droids" hidden="false" id="65b8-f7f6-d72d-1bb8">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="3fbe-466e-6420-8642" primary="true" name="Other"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Crab Droid" hidden="false" id="fb92-b971-0f49-71db">
+          <categoryLinks>
+            <categoryLink targetId="db91-0fe3-1999-9539" id="035c-bb88-b0cf-6eb7" primary="true" name="Other"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="74"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2516-9872-f50f-efd1"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="534a-9fbf-060d-994f"/>
+          </constraints>
+          <profiles>
+            <profile name="Crab Droid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="8670-8598-bdc8-305e">
+              <characteristics>
+                <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+                <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">4+</characteristic>
+                <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">6</characteristic>
+                <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+                <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+                <characteristic name="W" typeId="d783-432f-a3da-3acf">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mandible Blasters" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="db61-2793-c8a9-55cb">
+              <characteristics>
+                <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">3</characteristic>
+                <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+              </characteristics>
+            </profile>
+            <profile name="Armoured Forelimbs" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a906-50c2-82ab-df23">
+              <characteristics>
+                <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+                <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+              </characteristics>
+            </profile>
+            <profile name="Mudracker" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="c50b-7808-53ac-7c80">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">In the Ranged Phase instead of shooting this unit may deploy a smoke marker per Crab Droid. All Smoke Markers must be placed in a straight line and all touching, within 6” of the unit</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Run Them Down" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="dd2b-b264-32e2-322f">
+              <characteristics>
+                <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit may re-roll a charge declared against an enemy INFANTRY unit</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="All Terrain" id="55a1-2ecb-badb-b4de" hidden="false" type="rule" targetId="ceb6-300b-a7da-d000"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Crab Droids" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="14d5-87b6-55f1-7ca8">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Infantry, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Dwarf Spider Droids" hidden="false" id="19ff-725b-4f95-ea9b">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="a3c6-0608-484b-9b0e" primary="true" name="Other"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Dwarf Spider Droid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="7c37-4b0f-52fb-6495">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">6</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spider Climb" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="1dbc-1545-8892-ea5e">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit ignores the penalties for moving across low obstacles and may freely move between height levels</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gun Platform" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="9d5a-bbcf-f121-7900">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If this unit does not move in the previous movement phase, it gains a Accuracy Token per Spider Droid in this unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dwarf Spider Droids" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="9631-b54c-6182-04e7">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Vehicle, Walker, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dwarf Spider Droid" id="7c28-d7f6-662f-8f4f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Heavy Flamer" hidden="false" id="e16f-9d3c-f781-9783">
+              <profiles>
+                <profile name="Heavy Flamer" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="028c-4f99-3eda-6989">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">8&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">*</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Heavy Flamer" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="a296-e38a-ee7a-97d9">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">The attacks characteristic for this weapon is equal to the number of models from the target unit, which are in range when the attack is made (To a maximum of 4 per flamer)</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Metal Limbs" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="86d6-dd28-7f78-35ef">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="94"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Heavy Cannon" hidden="false" id="acf6-0d4f-bb01-ce44">
+              <profiles>
+                <profile name="Heavy Cannon" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="b12d-5528-dd6f-f6a6">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">48&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D4+1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Metal Limbs" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="7285-f857-edf7-beab">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="111"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Heavy Blaster" hidden="false" id="dbf4-f01c-6bdb-2bf1">
+              <profiles>
+                <profile name="Heavy Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4cf9-3dcb-9320-1d61">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">6</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D4+1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Metal Limbs" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="c2aa-8f0d-276b-6aad">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="118"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bbb0-8eed-ae50-f3a3"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e0f1-565c-cd10-45da"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Magnaguard" hidden="false" id="d3d5-27aa-47fb-d362">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="8d40-91a0-f35e-3dd8" primary="true" name="Other"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Magnaguard" id="cf42-157e-1e31-4567" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Electrowhip" hidden="false" id="bcca-781b-c6e8-c595">
+              <profiles>
+                <profile name="Electrowhip" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="ebed-a644-4293-a3ca">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">4&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Light</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Electrowhip (Melee)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a2ab-2140-32c7-73ab">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee 3&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Electrowhip" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="d164-2e6d-3962-1003">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Models equipped with an Electrowhip, may make a ranged attack in the Ranged Phase, when within engagement range of an enemy unit, but must target a unit within engagement range</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="62"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Light" id="2ce6-32b6-d2a3-5da1" hidden="false" type="rule" targetId="2135-2c3a-6657-8ae4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Electrostaff" hidden="false" id="30d8-37a8-95cd-4027">
+              <profiles>
+                <profile name="Electrostaff" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="50b9-970a-2e21-a192">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee 2&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber Resistant</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Electrostaff" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="42a1-f70d-20fd-cbec">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Models equipped with an Electrostaff have a j4+ Parry save</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="61"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightsaber Resistant" id="d37b-117a-f7ac-c615" hidden="false" type="rule" targetId="5f90-1f0e-96e4-2d6b"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Magnaguard" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="1716-b731-e864-905f">
+              <characteristics>
+                <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+                <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+                <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+                <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+                <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+                <characteristic name="W" typeId="d783-432f-a3da-3acf">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Protection Protocols" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="70c8-edb7-f23a-e50d">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">During the attachment stage of the Deployment Phase, this unit must have a CHARACTER attached to it. Neither this unit or the attached CHARACTER may detach, until one or the other is destroyed. Only one CHARACTER at a time may be attached to this unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Magnaguard" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="9155-34c3-785e-ae6b">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Infantry, Bodyguard, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bodyguard" id="2e78-7340-d1dc-d87f" hidden="false" type="rule" targetId="8602-4756-b662-fcb3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Commando Droids" hidden="false" id="3742-3e7e-84b2-88f0">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="eada-937d-ac08-7319" primary="true" name="Other"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Commando Droid" id="2597-c6d8-3cc5-6abf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Blaster and Vibro Blade" hidden="false" id="e369-c43c-80e8-a306">
+              <profiles>
+                <profile name="Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4911-e8d2-9129-e909">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Vibro Blade" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="2747-d937-6ad1-7637">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber Resistant</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Vibro Blade" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="e832-8b18-c1f6-d36f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">A model armed with a Vibro Blade has a 7+ Parry save</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="54"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightsaber Resistant" id="234e-b7f8-e94f-03d4" hidden="false" type="rule" targetId="5f90-1f0e-96e4-2d6b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Deflector Shield and Blaster" hidden="false" id="ce0a-aec5-36c9-b17a">
+              <profiles>
+                <profile name="Martial Arts" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="3b4e-675e-b827-a1e5">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Deflector Shield" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="4b96-41ea-b4c9-21e5">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">A model armed with a Deflector Shield has a 5+ Deflection Save and is Lightsaber Resistant</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4921-567e-eb6d-b4e4">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">18&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="56"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightsaber Resistant" id="8a45-be74-fb88-2d1e" hidden="false" type="rule" targetId="5f90-1f0e-96e4-2d6b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Rocket Launcher and Vibro Blade" hidden="false" id="3e48-74dd-542e-5f23">
+              <profiles>
+                <profile name="Rocket Launcher" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="9700-f0f7-0304-226d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">30&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D8+3</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Vibro Blade" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a03c-1be4-d363-c863">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber Resistant</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Rocket Launcher" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="2d21-ad02-3fd8-52c8">
+                  <characteristics>
+                    <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If the target of a ranged attack made by a rocket launcher is a VEHICLE unit, the damage characteristic becomes D8+3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="71"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightsaber Resistant" id="41e0-425a-a402-8d3e" hidden="false" type="rule" targetId="5f90-1f0e-96e4-2d6b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sniper and Vibro Blade" hidden="false" id="c445-a236-f29a-0e68">
+              <profiles>
+                <profile name="Sniper" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="0b2c-d417-791a-ddc7">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">48&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Sniper</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Vibro Blade" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="c813-5cea-82e5-c444">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber Resistant</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="66"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightsaber Resistant" id="ce60-09ff-491e-5845" hidden="false" type="rule" targetId="5f90-1f0e-96e4-2d6b"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="b3e3-3f98-952e-3ec5"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="1ff4-129e-3189-d69b"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Commando Droid" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="1994-a84d-ed00-6ebc">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">7</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Acrobatics" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="a704-b5cb-508f-990f">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit ignores penalties for moving across low obsatcles. In addition, it may freely move up or down a single height level, without using extra movement</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Commando Droids" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="163e-4eef-2d2a-bbb4">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Bx1, Infantry, Commando, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Commando" id="cb64-632b-4179-ad9c" hidden="false" type="rule" targetId="4169-c762-c674-d153"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6a76-6186-d390-9f7f" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Persuader Tank" hidden="false" id="9e83-4552-0054-8ece">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="ce59-cc66-ce3f-0417" primary="true" name="Other"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Persuader Tank" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="60dc-0b32-8f4b-6dc2">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">8&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">4+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">7</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Blasters" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="f62a-b45f-acd5-98ac">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D4+1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Ion Cannons" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="0f50-69dd-4e20-ad4c">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Concussion Launchers" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="3645-1d2e-5047-b424">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">12&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2D4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Ion Cannons" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="611a-a36f-48a9-bf09">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If this weapon targets a VEHICLE unit, any hits against it are resolved at AP 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Concussion Launchers" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="da28-9656-9307-d6dc">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This weapon ignores the benefits of Light Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Open Transport" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="a6b0-12a2-d776-b5bd">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model may transport up to 10 INFANTRY models, however these models may be targeted in the Ranged Phase, benefiting from Light Cover. Models Disembarking from this unit may make a normal move after</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Persuader Tank" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="23ae-bd8f-18f3-d30f">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Vehicle, Amphibious, Transport, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Amphibious" id="c4b7-5e05-9d5d-758a" hidden="false" type="rule" targetId="b60a-8b54-7ef1-7c88"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="300"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Multi-troop Transport" hidden="false" id="8283-0806-6a0d-b71b">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="259d-4954-aa18-478b" primary="true" name="Other"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Multi-troop Transport" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="a4e2-7a40-c292-7d6f">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">3+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">6</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">24</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin Blaster Cannons" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="0fbe-1d5d-e5f2-db08">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Droid Deployment Racks" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="c888-f844-d903-8516">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">At the end of the Movement Phase, this unit may reinforce friendly B1 Battle Droid Squad’s and B2 Battle Droid Squad’s. For each B1 Battle Droid Squad within 3” of this model you may add D4+1 B1 models armed with blasters and gun butts. For each B2 Battle Droid Squad, add 1 B2 model armed with wrist blaster and punches. Models added to units with this ability must be placed in cohesion with their new unit and within 3” of this model</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Multi-troop Transport" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="345b-0927-5162-7146">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Vehicle, Repulsor, Lumbering, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Repulsor" id="e1f1-522a-ff1e-11a4" hidden="false" type="rule" targetId="de77-f808-1f29-9687"/>
+        <infoLink name="Lumbering" id="82e8-0da5-5201-09cd" hidden="false" type="rule" targetId="bb6d-257e-5888-c01d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="335"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="AAT" hidden="false" id="73ce-3d8b-147e-d892">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="807c-7385-ca2e-06a7" primary="true" name="Other"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="AAT" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="8e82-6fea-d7e2-9e71">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">8&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">4+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">7</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">18</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Laser Cannon" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="d7e5-4d9b-d5f1-70fa">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">30&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D8</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Twin Blaster Cannons" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="5d47-d372-69ad-e2ec">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Front Armour" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="f6b3-6c7a-209b-1800">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When firing at this unit, draw a straight line from the attacking model to the closest point of this one. If this line touches the front or side arc of this unit, resolve that attack at Armour 3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bunker Buster Shells" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="b6bc-0256-f0c1-f7c9">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Attacks from the Heavy Laser Cannon ignore the benefits of Heavy Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="AAT" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="c9e2-0822-faf8-591c">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Droid, Vehicle, Repulsor, Mechanical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Repulsor" id="54e0-fcbc-3d99-82e6" hidden="false" type="rule" targetId="de77-f808-1f29-9687"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="345"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Darth Sidious (PC)" hidden="false" id="b979-80ab-184f-5b9c">
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="150"/>
+      </costs>
+      <profiles>
+        <profile name="Darth Sidious (PC)" typeId="4188-a790-0f87-dc4e" typeName="Political Character" hidden="false" id="1fe4-85f6-c919-84d6">
+          <characteristics>
+            <characteristic name="Ability" typeId="be08-eef8-a0f5-f8b2">When this PC claims a zone, attach it to an enemy unit until the start of the next turn. The unit this PC is attached to, cannot receive any Tactical Orders</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="77a0-8e47-6eaa-2afd" id="1a8a-62a1-b80e-f998" primary="true" name="Political Character"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad39-9df8-3cb5-01af"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wat Tambor (PC)" hidden="false" id="60c1-73ad-a8d2-d98b">
+      <categoryLinks>
+        <categoryLink targetId="77a0-8e47-6eaa-2afd" id="9d62-9aa3-6ba4-7891" primary="true" name="Political Character"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Wat Tambor (PC)" typeId="4188-a790-0f87-dc4e" typeName="Political Character" hidden="false" id="241a-4b9b-51a2-e530">
+          <characteristics>
+            <characteristic name="Ability" typeId="be08-eef8-a0f5-f8b2">When this PC claims a zone, attach it to an enemy LEADER unit. When that unit gives a Tactical Order, you gain 1 Tactical Point</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="150"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd5a-b8a8-9950-8664"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jango Fett (PC)" hidden="false" id="c130-8847-79bd-9ab2">
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="77a0-8e47-6eaa-2afd" id="1e48-71a3-df03-62b6" primary="true" name="Political Character"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Jango Fett (PC)" typeId="4188-a790-0f87-dc4e" typeName="Political Character" hidden="false" id="805b-3156-4736-6ca5">
+          <characteristics>
+            <characteristic name="Ability" typeId="be08-eef8-a0f5-f8b2">At the start of each turn, place Jango&apos;s markers on two separate zones, face down. If an enemy PC claims a zone with a marker, reveal that marker. If it is the Hunted marker, roll a D8 and on the result of a 4+, the PC is removed from the game before the zone is claimed. Once an enemy PC has been removed by this ability, remove Jango Fett from the game</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32e8-c5a7-4fd0-52b1"/>
+      </constraints>
+      <modifiers>
+        <modifier type="decrement" value="1" field="32e8-c5a7-4fd0-52b1">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="e01a-bd9d-9c21-97d1" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Assajj Ventress" hidden="false" id="67d0-b3c6-d957-8243">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="9e93-1c74-46b8-a9b0" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Assajj Ventress" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="847d-567e-03d0-2d91">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">8&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">3+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">3(6)</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin Sabers" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a047-b294-8309-485c">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Force Cloak" typeId="ee5e-e6b2-01bc-c88d" typeName="Force Power" hidden="false" id="0513-7f4c-38c6-b386">
+          <characteristics>
+            <characteristic name="Difficulty" typeId="e88d-ad09-6dcb-557d">4+</characteristic>
+            <characteristic name="Description" typeId="bf7c-1d5e-ef7c-9dd1">Concentration. While assajj is concentrating on this power, she cannot be targeted by enemy force powers</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Empowered Force Choke" typeId="ee5e-e6b2-01bc-c88d" typeName="Force Power" hidden="false" id="46f8-b480-c109-b6c3">
+          <characteristics>
+            <characteristic name="Difficulty" typeId="e88d-ad09-6dcb-557d">6+</characteristic>
+            <characteristic name="Description" typeId="bf7c-1d5e-ef7c-9dd1">Target enemy model within 4” suffers 2 Brutal Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Assajj Ventress" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="c84f-dda7-c630-b6ee">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Nightsister, Sith, Leader, Officer, Infantry, Force User, Dark Side, Lightsaber, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Commando" id="f26c-08b4-123d-3dd0" hidden="false" type="rule" targetId="4169-c762-c674-d153"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f46c-58da-429f-c71e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="262"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Force Powers" id="6839-0e0d-96e3-7bff" hidden="false">
+          <infoLinks>
+            <infoLink name="Choke" id="a801-289d-eee4-6a39" hidden="false" type="profile" targetId="5a8a-f469-d4a9-684e"/>
+            <infoLink name="Jump" id="f91f-3235-1bc1-8cce" hidden="false" type="profile" targetId="6428-ae1e-6c8f-7968"/>
+            <infoLink name="Lightning" id="b3d3-4b1f-3448-3c41" hidden="false" type="profile" targetId="bc78-8fe3-cc40-24ed"/>
+            <infoLink name="Rage" id="4a51-f30f-74c1-5ab0" hidden="false" type="profile" targetId="a900-660c-e157-5ce5"/>
+            <infoLink name="Speed" id="1d96-c1f8-9d2c-2935" hidden="false" type="profile" targetId="66a5-b152-6ec3-955b"/>
+            <infoLink name="Throw" id="fdfe-bc93-9909-b36d" hidden="false" type="profile" targetId="c51a-664a-8342-67f6"/>
+            <infoLink name="Barrier" id="6d68-7752-468d-28a0" hidden="false" type="profile" targetId="54c6-be67-3bca-ac7d"/>
+          </infoLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Jango Fett" hidden="false" id="6ec9-fea1-00b7-39e3">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="3c4b-737c-c8a8-982e" primary="true" name="Other"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ea6b-0ef1-8280-4ec5" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ea6b-0ef1-8280-4ec5">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d167-4711-b474-b48a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Jango Fett" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="f689-0124-7b76-9a54">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">10&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">4+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">1</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dual Pistols" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4f2f-0195-05f3-d544">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">10&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Flamethrower" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="1642-b353-8efe-63f6">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">6&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">*</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">The RoF for this weapon is equal to the amount of models from the target unit in range, to a maximum of 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jetpack Missile" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="bd18-fa0e-9d41-208a">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D8</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Wrist Blades" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="7a5d-a23d-c38a-1079">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Snare" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="d369-6a88-9d15-f926">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">When an enemy unit attempts to fall back from engagement with this model, roll a D8. On 4+, they successfully fall back, otherwise the unit must stay engaged to this model</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jango Fett" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="6cfe-7ac2-e542-3a6b">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Mercenary, Bounty Hunter, Officer, Infantry, Commando, Fly, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fly" id="f8c6-df55-496e-fd31" hidden="false" type="rule" targetId="5690-9a47-976b-2dcc"/>
+        <infoLink name="Commando" id="eb57-c54c-5b81-7493" hidden="false" type="rule" targetId="4169-c762-c674-d153"/>
+        <infoLink name="Mandalorian Training" id="a240-566c-1f27-1f80" hidden="false" type="profile" targetId="c42f-baca-1c70-2120"/>
+        <infoLink name="Bounty Hunter" id="a025-438e-bdc0-26a4" hidden="false" type="profile" targetId="3045-5379-ad49-8b2f"/>
+        <infoLink name="Mercenary" id="47a4-425d-8acf-804b" hidden="false" type="rule" targetId="6f0a-9e07-7acd-bbca"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="180"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Embo" hidden="false" id="d0cb-1be2-1ad9-479e">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="731e-801a-b5ab-02bd" primary="true" name="Other"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ccad-9fff-47d3-e24f" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Embo" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="80c8-b039-1417-505b">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">7&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">7</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bowcaster (Scatter)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="e78c-5fa4-a294-543a">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">12&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">D4+1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Bowcaster (Charged)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="08ab-5d42-0386-6a73">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">D4</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Bowcaster (Sniper)" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="71d7-59c9-a3e8-c58a">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">32&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Sniper, Heavy</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Embo&apos;s Hat" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a475-de17-20de-9d0d">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">10&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Martial Arts" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="bec1-a78f-7d1c-65c2">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">3</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Marrok" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="f4a8-e45b-7f3d-499d">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">3</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Embo&apos;s Hat" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="b4e1-8d96-d777-4e86">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model has a 7+ Parry save. When this model attempts a charge or is the charge Target of an enemy unit, it may make a ranged attack with the Embo&apos;s Hat weapon, following the rules for a ranged attack</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Acrobatics" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="ea28-1952-5187-804c">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit ignores low obstacles when moving</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Attack Hound" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="afb0-83ff-1b2a-12b2">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model adds 2 to charge attempts</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Embo" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="01e4-5122-7330-390e">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Mercenary, Bounty Hunter, Officer, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bounty Hunter" id="4ef2-3328-09d2-7384" hidden="false" type="profile" targetId="3045-5379-ad49-8b2f"/>
+        <infoLink name="Mercenary" id="47e2-fa0f-4475-1736" hidden="false" type="rule" targetId="6f0a-9e07-7acd-bbca"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="183"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cad Bane" hidden="false" id="3ac2-aa5d-fcbc-d2d7">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="5d44-cce0-4f8b-a708" primary="true" name="Other"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3fa9-3e4b-4518-a831" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Cad Bane" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="14cb-75de-2e7a-dd55">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Twin Pistols" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="a83a-06ab-0365-1ada">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">12&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gauntlet Flamer" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="43cd-60b4-4223-7b7c">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">6&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">*(Max 4)</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">This weapon&apos;s RoF is equal to the amount of models in target unit within range</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gauntlet Stun Blast" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="b9bb-ad9a-a755-64d3">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">6&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">An enemy unit successfully hit by this weapon suffers -1 to hit rolls until the start of your next Ranged Phase</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fastest Gun In The Galaxy" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="cf98-445a-01cf-d6ae">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">Cad Bane may use his Twin Pistols in the Melee Phase, as though they were a Melee weapon, but must Target an enemy unit engaged with Cad Bane</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jedi Hunter" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="6968-684a-b617-7246">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model may re-roll hit rolls against enemy FORCE USER units</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Martial Arts" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="7b49-8db1-aad6-2a8e">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">3</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Additional Attacks</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cad Bane" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="033d-c9bf-a255-9f1a">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">Mercenary, Bounty Hunter, Officer Infantry, Fly, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bounty Hunter" id="074a-a3fc-0ed8-8615" hidden="false" type="profile" targetId="3045-5379-ad49-8b2f"/>
+        <infoLink name="Fly" id="ed31-70b8-7c4e-9e76" hidden="false" type="rule" targetId="5690-9a47-976b-2dcc"/>
+        <infoLink name="Mercenary" id="3751-1cb3-0a3a-e51c" hidden="false" type="rule" targetId="6f0a-9e07-7acd-bbca"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="149"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Admiral Trench (PC)" hidden="false" id="4037-ef8a-8124-97bb">
+      <categoryLinks>
+        <categoryLink targetId="77a0-8e47-6eaa-2afd" id="6a03-6f81-efe1-d104" primary="true" name="Political Character"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="100"/>
+      </costs>
+      <profiles>
+        <profile name="Admiral Trench (PC)" typeId="4188-a790-0f87-dc4e" typeName="Political Character" hidden="false" id="4f3e-9636-d0c8-8bb3">
+          <characteristics>
+            <characteristic name="Ability" typeId="be08-eef8-a0f5-f8b2">If this PC claims the Naval Superiority zone, reaplce the zone’s with ability with the following: deal D4+1 Brutal Wounds and the target suffers +3 to its Attrition Test</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dfad-0857-1e14-bdc9" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nute Gunray (PC)" hidden="false" id="d79f-7518-d460-cf9a">
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="77a0-8e47-6eaa-2afd" id="d8b6-38eb-bc33-5c00" primary="true" name="Political Character"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="25d8-d1d8-0af1-ee0c" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Nute Gunray" typeId="4188-a790-0f87-dc4e" typeName="Political Character" hidden="false" id="64ef-552d-70c8-300e">
+          <characteristics>
+            <characteristic name="Ability" typeId="be08-eef8-a0f5-f8b2">If this PC claims the Supply Lines zone, if the unit selected for the zone ability is a DROID unit, restore 4 wounds instead of rolling</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Darth Maul" hidden="false" id="e66c-188b-9981-9dfc">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="0ec1-2d9d-83c4-ea4d" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Darth Maul" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="6045-959b-90bb-1489">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">3+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">2 (4)</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Saber Throw" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="b80e-0134-990e-a0b1">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">8&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+          </characteristics>
+        </profile>
+        <profile name="Double Bladed Lightsaber" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="8f69-22d8-5fd7-b163">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">4</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">3+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Lightsaber</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Teras Kasi" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="d66d-5119-b5ce-ae80">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">roll a D8 for each wound this model suffers, on the result of an 8, Ignore that wound. In addition, if this model is not engaged with any enemy units at the start of the turn and did not move, shoot or fight in the previous turn, it may heal D4 wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Double Bladed Lightsaber" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="b9b5-1084-d29c-a771">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model gains 2 Accuracy tokens at the start of each turn</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Martial Arts" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="478a-7404-8101-5db2">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Additional Attacks</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Darth Maul" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="9a70-3e11-6405-82ca">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Sith, Leader, Officer, Infantry, Force User, Dark Side, Lightsaber, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Force Powers" id="5493-c8bb-fc6c-cb01" hidden="false">
+          <infoLinks>
+            <infoLink name="Choke" id="eaae-8cd6-7710-6878" hidden="false" type="profile" targetId="5a8a-f469-d4a9-684e"/>
+            <infoLink name="Jump" id="3bc9-f7e5-87de-f1b4" hidden="false" type="profile" targetId="6428-ae1e-6c8f-7968"/>
+            <infoLink name="Lightning" id="4652-1eb3-caa8-2e11" hidden="false" type="profile" targetId="bc78-8fe3-cc40-24ed"/>
+            <infoLink name="Rage" id="3fd5-aa40-c646-3ead" hidden="false" type="profile" targetId="a900-660c-e157-5ce5"/>
+            <infoLink name="Speed" id="af1e-b4f9-c146-1a3c" hidden="false" type="profile" targetId="66a5-b152-6ec3-955b"/>
+            <infoLink name="Throw" id="739b-1631-66bf-5666" hidden="false" type="profile" targetId="c51a-664a-8342-67f6"/>
+            <infoLink name="Barrier" id="da30-ffbd-fe1e-de7a" hidden="false" type="profile" targetId="54c6-be67-3bca-ac7d"/>
+          </infoLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="af40-7c93-58ae-6a0d" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="242"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sponsor" hidden="false" id="2752-817c-7fcc-177f" subType="unit-group">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="e186-d7e5-7625-600a" primary="true" name="Sub Faction"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Trade Federation" hidden="false" id="d1c5-750c-bcd3-1e65">
+          <rules>
+            <rule name="1" id="0b51-57c3-9d20-3bbb" hidden="false">
+              <description>Friendly TRADE FEDERATION units add +1 to their Roger, Roger! rolls</description>
+            </rule>
+            <rule name="2" id="dbf5-3e5b-960e-a80d" hidden="false">
+              <description>Friendly DROID units add +1 to their Morale Characteristic</description>
+            </rule>
+            <rule name="3" id="fe06-209b-a1d8-8515" hidden="false">
+              <description>If Nute Gunray (PC) is part of your roster and has not been removed from the game, generate an additional Tactical Point at the start of each of your turns</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink targetId="default-category" id="47c8-61e2-8d0b-a47f" primary="true" name="Sub Faction"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Techno Union" hidden="false" id="97e5-bb98-f637-1e96">
+          <rules>
+            <rule name="1" id="1fb3-de80-5795-7c9c" hidden="false">
+              <description>Friendly TECHNO UNION VEHICLE units begin the game with +2 to their wounds Characteristic</description>
+            </rule>
+            <rule name="2" id="f643-1ed6-7c1c-40b3" hidden="false">
+              <description>Friendly TECHNO UNION VEHICLE units may benefit from the Roger, Roger! Rules</description>
+            </rule>
+            <rule name="3" id="8204-d43a-5cc0-61b3" hidden="false">
+              <description>If Wat Tambor (PC) is part of your roster and has not been removed from the game, friendly TECHNO UNION VEHICLE units may give themselves the Move it! or Take Aim orders</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink targetId="default-category" id="6c52-1381-79ef-c254" primary="true" name="Sub Faction"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="None" hidden="false" id="aa2a-9005-5f89-3b5f">
+          <categoryLinks>
+            <categoryLink targetId="default-category" id="5833-eee5-08b4-f4f1" primary="true" name="Sub Faction"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Geonosian Industries" hidden="false" id="dc2b-c9b9-3cd9-61bd">
+          <rules>
+            <rule name="1" id="090e-0eac-caa6-3aab" hidden="false">
+              <description>Selecting this Sponsor allows the use of Geonosian units</description>
+            </rule>
+            <rule name="2" id="f208-1f42-2af1-5ab4" hidden="false">
+              <description>Friendly INFANTRY units gain Concealment against ranged attacks 24&quot; away or further</description>
+            </rule>
+            <rule name="3" id="a968-05a5-7ae6-8a5a" hidden="false">
+              <description>For each instance of Poggle The Lesser and Sun Fac, a unit of B1 or B2 may be placed in Ambush</description>
+            </rule>
+          </rules>
+          <categoryLinks>
+            <categoryLink targetId="default-category" id="d4de-33de-b335-a388" primary="true" name="Sub Faction"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bfb0-a8ad-2eec-8fed" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Geonosian Drones" hidden="true" id="3de5-0342-3ec1-af27">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="dc2b-c9b9-3cd9-61bd" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="3754-7f78-a462-140f" primary="true" name="Core"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Geonosian Drones" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="bcd2-d02e-8da7-c7d4">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">8&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">7+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">6</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Geonosian Warriors" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="b566-ede3-9ec8-8399">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Geonosian, Core, Infantry, Ambusher, Fly, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fly" id="9f81-6c3b-ffad-2096" hidden="false" type="rule" targetId="5690-9a47-976b-2dcc"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Geonosian Drone" id="1e86-2549-5fe9-8758" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Sonic Carbine" hidden="false" id="ef5d-2e9e-6ba7-54b8">
+              <profiles>
+                <profile name="Geonosian Sonic Carbine" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="3974-b0ee-5274-29d9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">15&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Anti [Biological 7+]</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Geonosian Drone Claws" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="4aea-7011-7715-8285">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Spear" hidden="false" id="9017-abcc-437a-fe19">
+              <profiles>
+                <profile name="Geonosian Drone Spear" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="245a-ebe3-c062-475a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">2&quot; Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Parry 7+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Spear" typeId="2021-f4fa-b938-3423" typeName="Parry Save" hidden="false" id="bd4d-500d-2b2a-20d0">
+                  <characteristics>
+                    <characteristic name="Save" typeId="5731-4919-9376-3e44">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="14"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="a324-9a19-799c-18e1-min"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="a324-9a19-799c-18e1-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Geonosian Hive Guard" hidden="true" id="262d-598e-fd70-1941">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="dc2b-c9b9-3cd9-61bd" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="fe18-3a2b-20a3-5a48">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="9c32-5640-4459-e2b5" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="fe18-3a2b-20a3-5a48">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="63ce-774d-b38e-f08e" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="8ca6-32e1-7dc3-d729" primary="true" name="Other"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Geonosian Hive Guard" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="fd26-a0a6-d15c-584f">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">5+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Geonosian Warriors" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="e3f2-10f3-9129-620f">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Geonosian, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="fe18-3a2b-20a3-5a48" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Geonosian Hive Guard" id="6dc0-03fc-8c50-8daf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Beam Weapon" hidden="false" id="1101-ee8d-2446-1c26">
+              <profiles>
+                <profile name="Geonosian Beam Weapon" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="f4c6-2a88-9834-5833">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Anti [Biological 4+]</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Geonosian Guard Claws" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="b993-1439-d2e0-1f65">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="39"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sonic Cutter" hidden="false" id="1dc9-d229-8892-4254">
+              <profiles>
+                <profile name="Geonosian Sonic Cutter" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="463f-bf8f-7bdf-8dcd">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">3</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Geonosian Guard Claws" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="6d42-e2ce-db23-869f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ff9a-19f1-d9ed-a739"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="37"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="9b19-8e6e-df79-7a34-min"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="9b19-8e6e-df79-7a34-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Geonosian Warriors" hidden="true" id="b71f-64ac-8ade-898b">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="dc2b-c9b9-3cd9-61bd" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="a357-cc5a-166e-d993" primary="true" name="Other"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Geonosian Warriors" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="600b-0423-2bea-54f2">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">8&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">-</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Geonosian Warriors" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="45ec-af73-c54e-58a6">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Geonosian, Infantry, Ambusher, Fly, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fly" id="ee8a-dd67-6789-4843" hidden="false" type="rule" targetId="5690-9a47-976b-2dcc"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Geonosian Warrior" id="a1ab-4f69-6ce2-279f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Scattergun" hidden="false" id="b35a-02eb-6b2a-7296">
+              <profiles>
+                <profile name="Geonosian Scattergun" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="88d7-779d-cc51-8313">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">12&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">D4</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">1</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Light</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Geonosian Warrior Claws" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="bc12-f1c6-1562-f0c9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f4c3-002e-b70e-574b"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="19"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sonic Carbine" hidden="false" id="9436-46bd-1e13-9e14">
+              <profiles>
+                <profile name="Geonosian Sonic Carbine" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="14b3-aa65-ab46-a14f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">15&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Anti [Biological 7+]</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Geonosian Warrior Claws" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="6223-4f18-d768-4903">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="18"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Sonic Cutter" hidden="false" id="5ae0-8d80-40fe-7c2b">
+              <profiles>
+                <profile name="Geonosian Sonic Cutter" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="5cb6-eb73-a17f-8d60">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">24&quot;</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">3</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">3</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+                <profile name="Geonosian Warrior Claws" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="74d9-2d46-723c-6b2e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="791b-58fd-e73f-df73"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="27"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Spear" hidden="false" id="bb53-17dd-06fd-3a5b">
+              <profiles>
+                <profile name="Geonosian Warrior Spear" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="3dc2-bf38-64d5-76af">
+                  <characteristics>
+                    <characteristic name="Range" typeId="bef5-3674-4006-d171">2&quot; Melee</characteristic>
+                    <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">1</characteristic>
+                    <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">6+</characteristic>
+                    <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+                    <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+                    <characteristic name="Special" typeId="873b-012d-d70f-d234">Parry 7+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Spear" typeId="2021-f4fa-b938-3423" typeName="Parry Save" hidden="false" id="bad2-ae77-5457-8995">
+                  <characteristics>
+                    <characteristic name="Save" typeId="5731-4919-9376-3e44">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="19"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="8342-508d-3e57-22af"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="9fbf-556f-4a72-1a16"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Poggle The Lesser" hidden="true" id="406a-7e90-0274-0453">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="702b-9247-82cc-d217" primary="true" name="Leader"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="dc2b-c9b9-3cd9-61bd" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Poggle The Lesser" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="995b-1a53-430e-b3cc">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">6&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">7+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">9</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">4</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Staff of Command" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="f0b0-b454-8d4e-f2fc">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">7+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Parry 7+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Staff of Command" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="5434-1672-95ba-f58e">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">At the start of the Attrition Phase, this model may inflict a Brutal Wound against a GEONOSIAN unit it is attached to. If it does so, friendly GEONOSIAN units within 12&quot; automatically succeed any attrition tests until the end of the phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Arch Duke Is Watching" typeId="02d5-6049-315e-ffaa" typeName="Order" hidden="false" id="522f-5e82-d28d-e7cc">
+          <characteristics>
+            <characteristic name="TP" typeId="1dd2-ae82-7f1e-76b7">2</characteristic>
+            <characteristic name="Description" typeId="7f29-52a1-7e58-0a0b">Use this order at the start of the Ranged Phase. Friendly GEONOSIAN units within 6&quot; of this model gain 2 Accuracy tokens.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Poggle The Lesser" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="3b84-a60d-34f8-6b9b">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Geonosian, Leader, Officer, Infantry, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="88"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="934b-74a9-bd72-e651" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sun Fac" hidden="true" id="78ef-5089-5be6-dd67">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="22bb-c337-8ce7-61b1" primary="true" name="Leader"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="dc2b-c9b9-3cd9-61bd" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Sun Fac" typeId="611d-ff8e-c8ae-7a94" typeName="Unit" hidden="false" id="26da-097c-ce79-f506">
+          <characteristics>
+            <characteristic name="M" typeId="7775-f0be-5f6a-b864">8&quot;</characteristic>
+            <characteristic name="Arm" typeId="0536-eb8d-68ee-2fa8">6+</characteristic>
+            <characteristic name="Ld" typeId="7ab7-5615-d2c8-201d">8</characteristic>
+            <characteristic name="FR" typeId="8b83-656d-f04a-b86a">-</characteristic>
+            <characteristic name="CR" typeId="41c3-5dbd-6680-7fe6">2</characteristic>
+            <characteristic name="W" typeId="d783-432f-a3da-3acf">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sun Fac&apos;s Sonic Blaster" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="c20c-d9b8-b08e-70b2">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">15&quot;</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">4+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">-</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">1</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Anti [Biological 7+]</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sun Fac&apos;s Force Pike" typeId="0652-727d-8b0f-1abd" typeName="Weapon" hidden="false" id="8f8e-93f1-8982-2ac2">
+          <characteristics>
+            <characteristic name="Range" typeId="bef5-3674-4006-d171">2&quot; Melee</characteristic>
+            <characteristic name="RoF" typeId="c129-baf5-ec78-cd70">2</characteristic>
+            <characteristic name="Hit" typeId="87f1-e526-1e0e-8cf8">5+</characteristic>
+            <characteristic name="AP" typeId="d238-9285-6459-aa70">2</characteristic>
+            <characteristic name="Dmg" typeId="74ef-06f9-f52c-ed15">2</characteristic>
+            <characteristic name="Special" typeId="873b-012d-d70f-d234">Parry 6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sun Fac" typeId="2021-f4fa-b938-3423" typeName="Parry Save" hidden="false" id="6f40-22e2-a7d8-0ec4">
+          <characteristics>
+            <characteristic name="Save" typeId="5731-4919-9376-3e44">6+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chief Lieutenant" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="ed5a-67b2-cf77-25ec">
+          <characteristics>
+            <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This model may give an additional Tactical Order each turn, if the target unit is GEONOSIAN</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Arch Duke&apos;s Enforcer" typeId="02d5-6049-315e-ffaa" typeName="Order" hidden="false" id="b041-2143-429c-3199">
+          <characteristics>
+            <characteristic name="TP" typeId="1dd2-ae82-7f1e-76b7">1</characteristic>
+            <characteristic name="Description" typeId="7f29-52a1-7e58-0a0b">Select an enemy unit within line of sight of this model. Friendly GEONOSIAN units may re-roll charges against that unit until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sun Fac" typeId="a0b9-a39f-5fa8-1255" typeName="Keywords" hidden="false" id="1e43-7628-2736-17d2">
+          <characteristics>
+            <characteristic name="Tags" typeId="2829-6474-b9b2-c5e4">CIS, Geonosian, Leader, Officer, Infantry, Ambush, Fly, Biological</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fly" id="6f36-3359-51b5-fd92" hidden="false" type="rule" targetId="5690-9a47-976b-2dcc"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="151"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2f51-124c-0187-9211" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Poggle The Lesser (PC)" hidden="false" id="3e31-b6b7-21e0-9166">
+      <categoryLinks>
+        <categoryLink targetId="77a0-8e47-6eaa-2afd" id="691f-b24b-079d-5b0f" primary="true" name="Political Character"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="B1 Battledroid Squad" hidden="false" id="fcbb-4502-88ce-46b9" targetId="8ea8-3711-dc2c-eddb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="2497-3204-a604-6019" primary="true" name="Core"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="B2 Super Battledroid Squad" hidden="false" id="47a5-58d8-da7d-2af8" targetId="c7d9-d5bd-0267-910c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="68fe-c522-5fd6-bb8c" id="c66c-9fad-c396-b71f" primary="true" name="Core"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Droidekas" hidden="false" id="91da-3cb8-88bd-ee5a" targetId="1501-44d3-63a0-aa82" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="e06c-e5ff-4406-6064" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Crab Droids" hidden="false" id="206b-5a13-53c5-5b3f" targetId="65b8-f7f6-d72d-1bb8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="68bf-680e-18ba-e28c" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="B1 STAP Squadron" hidden="false" id="9da7-a6f8-beaa-d8a5" targetId="50c3-1ae8-4c75-4983" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="1bab-f6cc-69ad-1378" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dwarf Spider Droids" hidden="false" id="1cc4-016d-6842-c211" targetId="19ff-725b-4f95-ea9b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="cb77-e2d7-f048-11c3" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Commando Droids" hidden="false" id="2c78-ecf8-194b-2e83" targetId="3742-3e7e-84b2-88f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="9ae1-8fbd-a4af-412e" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Magnaguard" hidden="false" id="0947-9d24-6327-0da0" targetId="d3d5-27aa-47fb-d362" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="f99b-8900-b870-db7b" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="B1 OOM" hidden="false" id="7aa6-44d1-d489-339a" targetId="c672-d51e-f287-4b42" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="dede-9813-68cf-9e67" primary="true" name="Leader"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tactical Droid" hidden="false" id="bfc4-c34c-6540-46cd" targetId="cedc-9473-2306-cd8b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="6de4-d199-4049-3d31" primary="true" name="Leader"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Super Tactical Droid" hidden="false" id="5587-df20-bccb-021b" targetId="d839-7c41-fac1-aa3e" type="selectionEntry">
+      <costs>
+        <cost name="Points" typeId="7403-878c-3fa9-fe8a" value="109"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="General Grievous" hidden="false" id="5a61-22da-7814-9121" targetId="9a76-b29b-82a7-9dff" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="3e95-9c9b-a923-bed0" primary="true" name="Leader"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Count Dooku" hidden="false" id="2a1c-d1d5-19ca-0d67" targetId="a8bf-c9ea-3d87-3412" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="a1b8-6e06-998f-2141" id="14a0-1ae4-2433-fce0" primary="true" name="Leader"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Persuader Tank" hidden="false" id="f10a-cc7a-3f79-770d" targetId="9e83-4552-0054-8ece" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="50d0-afd3-d65c-7f94" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="AAT" hidden="false" id="b3ac-88b9-41a4-1ebf" targetId="73ce-3d8b-147e-d892" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="5555-58f7-5e4c-9d8f" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Multi-troop Transport" hidden="false" id="289e-1ce8-f5e0-37f9" targetId="8283-0806-6a0d-b71b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="db91-0fe3-1999-9539" id="e73a-1a5f-5c25-af52" primary="true" name="Other"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Darth Sidious (PC)" hidden="false" id="9e5c-bfce-6a91-103f" targetId="b979-80ab-184f-5b9c" type="selectionEntry"/>
+    <entryLink import="true" name="Wat Tambor (PC)" hidden="false" id="9af8-c1d6-a81e-e569" targetId="60c1-73ad-a8d2-d98b" type="selectionEntry"/>
+    <entryLink import="true" name="Jango Fett (PC)" hidden="false" id="d167-4711-b474-b48a" targetId="c130-8847-79bd-9ab2" type="selectionEntry"/>
+    <entryLink import="true" name="Assajj Ventress" hidden="false" id="6d29-5979-ca3b-32bf" targetId="67d0-b3c6-d957-8243" type="selectionEntry"/>
+    <entryLink import="true" name="Jango Fett" hidden="false" id="e01a-bd9d-9c21-97d1" targetId="6ec9-fea1-00b7-39e3" type="selectionEntry"/>
+    <entryLink import="true" name="Embo" hidden="false" id="f9e0-49bf-ab5e-0fbb" targetId="d0cb-1be2-1ad9-479e" type="selectionEntry"/>
+    <entryLink import="true" name="Cad Bane" hidden="false" id="9a20-3e94-25b4-173f" targetId="3ac2-aa5d-fcbc-d2d7" type="selectionEntry"/>
+    <entryLink import="true" name="Admiral Trench (PC)" hidden="false" id="b3cd-0a4b-fa08-14a0" targetId="4037-ef8a-8124-97bb" type="selectionEntry"/>
+    <entryLink import="true" name="Nute Gunray (PC)" hidden="false" id="1258-32b6-624c-a544" targetId="d79f-7518-d460-cf9a" type="selectionEntry"/>
+    <entryLink import="true" name="Darth Maul" hidden="false" id="1fc0-fd4a-e165-2c0f" targetId="e66c-188b-9981-9dfc" type="selectionEntry"/>
+    <entryLink import="true" name="Sponsor" hidden="false" id="19c4-4a03-ba2a-7da6" targetId="2752-817c-7fcc-177f" type="selectionEntry"/>
+    <entryLink import="true" name="Geonosian Drones" hidden="false" id="b29d-00e6-5e72-6986" targetId="3de5-0342-3ec1-af27" type="selectionEntry"/>
+    <entryLink import="true" name="Geonosian Hive Guard" hidden="false" id="936c-5dad-20b5-98c6" targetId="262d-598e-fd70-1941" type="selectionEntry"/>
+    <entryLink import="true" name="Geonosian Warriors" hidden="false" id="a253-6ecc-a034-d799" targetId="b71f-64ac-8ade-898b" type="selectionEntry"/>
+    <entryLink import="true" name="Poggle The Lesser" hidden="false" id="9c32-5640-4459-e2b5" targetId="406a-7e90-0274-0453" type="selectionEntry"/>
+    <entryLink import="true" name="Sun Fac" hidden="false" id="63ce-774d-b38e-f08e" targetId="78ef-5089-5be6-dd67" type="selectionEntry"/>
+  </entryLinks>
+  <forceEntries>
+    <forceEntry name="CIS" id="13c4-34ba-482b-5cdf" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="e20e-c29d-691f-e091" targetId="68fe-c522-5fd6-bb8c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c89a-f6e3-4de0-05a8"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Other" hidden="false" id="d073-e463-07f0-47e3" targetId="db91-0fe3-1999-9539">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="73ea-1d7a-6b76-b220" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="73ea-1d7a-6b76-b220">
+              <conditions>
+                <condition type="always" value="100" field="forces" scope="roster" childId="68fe-c522-5fd6-bb8c" shared="true" includeChildSelections="true" percentValue="true"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="68fe-c522-5fd6-bb8c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Leader" hidden="false" id="d7c7-d3cd-2a6f-6ed0" targetId="a1b8-6e06-998f-2141">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d9d4-a97f-2eea-f8b8" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="a56b-c568-3ae5-300b" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="a56b-c568-3ae5-300b">
+              <conditions>
+                <condition type="always" value="100" field="forces" scope="roster" childId="68fe-c522-5fd6-bb8c" shared="true" includeChildSelections="true" includeChildForces="true" percentValue="true"/>
+              </conditions>
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="68fe-c522-5fd6-bb8c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Sub Faction" hidden="false" id="8659-6786-80de-fc2a" targetId="default-category">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adf6-a492-ac3d-ff3a"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Political Character" hidden="false" id="7ec8-acdf-889a-cfac" targetId="77a0-8e47-6eaa-2afd"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedProfiles>
+    <profile name="Mandalorian Training" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="c42f-baca-1c70-2120">
+      <characteristics>
+        <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">This unit may attack with its Pistols in the Ranged Phase even when within engagement range of an enemy unit, but must target a unit within engagement range</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bounty Hunter" typeId="8f65-0038-87eb-0b4c" typeName="Abilities" hidden="false" id="3045-5379-ad49-8b2f">
+      <characteristics>
+        <characteristic name="Description" typeId="d06a-1836-2c9e-3f77">If this model destroys an enemy LEADER unit, you gain 1 Tactical Point</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
